@@ -12,7 +12,7 @@ const Navbar = () => {
     nav ? transition = 'left-0' :  transition = 'left-[-100%]'
 
     return (
-        <div className='px-6 md:px-40'>
+        <div className='px-6 md:px-40 text-black-low'>
             <div>
                 
             </div>
