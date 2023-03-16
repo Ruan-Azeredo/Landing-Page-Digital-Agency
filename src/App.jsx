@@ -1,4 +1,5 @@
 import './App.css';
+import Hero from './sections/Hero';
 import Navbar from './sections/Navbar';
 
 function App() {
@@ -6,9 +7,10 @@ function App() {
     <div>
       <div
         className='w-[450px] h-[450px] bg-blue-medium opacity-25 rounded-full blur-xl
-        absolute -top-52 -left-52'
+        absolute -top-52 -left-52 -z-10'
       ></div>
-      <Navbar/>
+      <Navbar />
+      <Hero/>
     </div>
   );
 }
