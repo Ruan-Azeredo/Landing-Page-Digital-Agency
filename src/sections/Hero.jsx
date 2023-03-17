@@ -12,7 +12,7 @@ const Hero = () => {
                 </p>
                 <button className='px-4 py-2 bg-blue-medium font-semibold text-gray-low text-sm rounded-md flex mx-auto md:mx-0 mt-6'>CONTACT US</button>
             </div>
-            <img src="img-hero.png" alt="" className='mt-6 md:mt-0 w-1/2'/>
+            <img src="img-hero.png" alt="" className='mt-6 md:mt-0'/>
         </div>
     )
 }
