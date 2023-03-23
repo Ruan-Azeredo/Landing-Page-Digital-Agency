@@ -1,4 +1,5 @@
 import './App.css';
+import Companies from './sections/Companies';
 import Hero from './sections/Hero';
 import Navbar from './sections/Navbar';
 
@@ -10,7 +11,8 @@ function App() {
         absolute -top-52 -left-52 -z-10'
       ></div>
       <Navbar />
-      <Hero/>
+      <Hero />
+      <Companies/>
     </div>
   );
 }
